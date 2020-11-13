@@ -1,0 +1,14 @@
+[CREDENTIALS]
+;the api key can either be an IAM key or Bearer token
+api_key =
+
+; Enter the service url below.
+;url = https://api.us-south.speech-to-text.watson.cloud.ibm.com
+
+; By default, the authentication method is "iam". Cloud Pak for data requires "bearer" type.
+;auth_method = bearer
+
+[DEFAULT]
+; The sound_dir will contain the sound files and text transcriptions to test.
+sound_dir = ./sound
+
