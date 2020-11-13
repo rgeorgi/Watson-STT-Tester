@@ -4,8 +4,8 @@ Script
 """
 import argparse
 
-from cvs_ia_tools.recognize import recognize_audio
-from cvs_ia_tools.utils import load_config, init_stt
+from watson_stt_tester.recognize import recognize_audio
+from watson_stt_tester.utils import load_config, init_stt
 
 def gather_audio_files():
     """
